@@ -1,0 +1,11 @@
+,Name,Subject,Grade,Age,passed
+0,Ahmed,Math,85.0,20.0,True
+1,Sara,Math,90.0,21.0,True
+2,Omar,Science,78.0,20.0,True
+3,Lina,Math,92.0,22.0,True
+4,Ahmed,Science,88.0,20.0,True
+5,Sara,Science,95.0,21.0,True
+6,Omar,Math,82.0,20.0,True
+7,Lina,Science,89.0,22.0,True
+8,Yara,Math,86.11111111111111,21.0,True
+9,Ali,Science,76.0,20.77777777777778,True

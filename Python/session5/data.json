@@ -1,0 +1,38 @@
+{
+    "Cairo": {
+        "type": "Capital",
+        "population": 20000000
+    },
+    "Alexandria": {
+        "type": "Coastal City",
+        "population": 5500000
+    },
+    "Giza": {
+        "type": "Historical City",
+        "population": 9000000
+    },
+    "Luxor": {
+        "type": "Historical City",
+        "population": 500000
+    },
+    "Aswan": {
+        "type": "Touristic City",
+        "population": 1600000
+    },
+    "Sharm El Sheikh": {
+        "type": "Unknown",
+        "population": 73000
+    },
+    "Hurghada": {
+        "type": "Resort City",
+        "population": 400000
+    },
+    "Mansoura": {
+        "type": "City",
+        "population": 700000
+    },
+    "Tanta": {
+        "type": "City",
+        "population": 0
+    }
+}
