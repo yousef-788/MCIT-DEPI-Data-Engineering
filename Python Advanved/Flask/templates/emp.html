@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Employee Data</title>
+
+
+<style>
+
+/* خلفية متحركة */
+
+body
+{
+    font-family: Arial;
+    background: linear-gradient(-45deg, #1e3c72, #2a5298, #6dd5ed, #2193b0);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    text-align: center;
+}
+
+
+@keyframes gradientBG
+{
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+
+/* عنوان */
+
+h1
+{
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+/* جدول */
+
+.table
+{
+    margin: auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: fadeIn 1s;
+}
+
+
+.table th
+{
+    background: #2a5298;
+    color: white;
+    padding: 15px;
+}
+
+
+.table td
+{
+    padding: 15px;
+}
+
+
+.table tr:hover
+{
+    background: #f2f2f2;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+
+
+/* animation */
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<h1>Employee Information</h1>
+
+
+{{ tables|safe }}
+
+
+</body>
+
+
+</html>
